@@ -51,6 +51,8 @@ CORS_ALLOW_METHODS = [
      'POST',
 ]
 
+CELERY_BROKER_URL = "amqp://admin:admin@localhost:5672/RESTful_API_service"
+
 ROOT_URLCONF = 'RESTful_API_service.urls'
 
 TEMPLATES = [
