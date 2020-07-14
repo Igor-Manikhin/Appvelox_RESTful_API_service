@@ -52,6 +52,10 @@ CORS_ALLOW_METHODS = [
 ]
 
 CELERY_BROKER_URL = "amqp://admin:admin@localhost:5672/RESTful_API_service"
+CELERY_RESULT_BACKEND = 'amqp'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
 
 ROOT_URLCONF = 'RESTful_API_service.urls'
 
