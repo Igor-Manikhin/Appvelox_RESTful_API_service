@@ -1,0 +1,46 @@
+{
+    "incorrect_uuid":[
+        "4ea92f6d-9ca2-40c9-899d-518f",
+        "5ea92f6d-10cc0-30c3-822e",
+        "5ea92f6d-10cc0-40c9-899d-518",
+        "518f016221c1-10cc0-40c9-899d",
+        "40c9-899d-518f016221c1-10cc0"
+    ],
+    "non_existing_uuid":[
+        "92d5cf61-c9f7-49d3-bf75-1cfced6e0d52",
+        "acc32998-36d8-4481-b5d7-c0c6d653e88c",
+        "d16d0ddb-d97d-4d58-9bc0-c96f6e24e433",
+        "48d755bd-9a69-4618-9333-42f82f916c42",
+        "4cb89919-d21c-4630-87ed-b2ff38a2841c"
+    ],
+    "existing_uuid":[
+        "8690835a-c1d3-454f-bc94-1805612e84bc",
+        "d333214a-09b8-4f06-aacd-46d8b738f378",
+        "aa5cd1ee-bf13-4624-9353-bb848bef5ead"
+    ],
+    "correct_responses":[
+        {
+            "status":"SUCCESS",
+            "status_info": {
+                "description":"Task completed",
+                "Time spent":"80.65331029891968 seconds"
+            }
+        },
+        {
+            "status":"SUCCESS",
+            "status_info": {
+                "description":"Task completed",
+                "Time spent":"80.35662055015564 seconds"
+            }
+        },
+        {
+            "status":"SUCCESS",
+            "status_info": {
+                "description":"Task completed",
+                "Time spent":"80.22366118431091 seconds"
+            }
+        }
+    ],
+    "incorrect_response":"400 BAD REQUEST",
+    "non_existing_response":"404 NOT FOUND"
+}
