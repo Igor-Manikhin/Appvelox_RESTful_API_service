@@ -14,24 +14,24 @@
         "4cb89919-d21c-4630-87ed-b2ff38a2841c"
     ],
     "existing_uuid":[
-        "f1fb2514-bda6-463d-9e9e-e3175b90f1bb",
-        "817cadf6-c3d0-469b-b642-e20f2310336f",
-        "5b889a63-9f4c-4bd0-a749-929a60177317"
+        "8690835a-c1d3-454f-bc94-1805612e84bc",
+        "aa5cd1ee-bf13-4624-9353-bb848bef5ead",
+        "d333214a-09b8-4f06-aacd-46d8b738f378"
     ],
     "incorrect_response":"400 BAD REQUEST",
     "non_existing_response":"404 NOT FOUND",
     "correct_responses":[
         {
+            "Content-Type":"image/png",
+            "Content-Disposition":"attachment; filename=image-bc94-1805612e84bc.png"
+        },
+        {
             "Content-Type":"image/jpeg",
-            "Content-Disposition":"attachment; filename=image-9e9e-e3175b90f1bb.jpeg"
+            "Content-Disposition":"attachment; filename=image-9353-bb848bef5ead.jpeg"
         },
         {
             "Content-Type":"image/png",
-            "Content-Disposition":"attachment; filename=image-b642-e20f2310336f.png"
-        },
-        {
-            "Content-Type":"image/png",
-            "Content-Disposition":"attachment; filename=image-a749-929a60177317.png"
+            "Content-Disposition":"attachment; filename=image-aacd-46d8b738f378.png"
         }
     ]
 }

@@ -1,8 +1,20 @@
-from django.core.files.base import ContentFile
-from PIL import Image
-from io import BytesIO
 import base64
 import re
+from io import BytesIO
+
+from PIL import Image
+from django.core.files.base import ContentFile
+
+"""
+    Функция для изменения размеров входного изображения на указанные
+    в данных тела входящего запроса
+    
+    Описание входных данных:
+        data - входные данных изображения, отаправленные в теле входящего запроса
+    
+    Возвращаемый результат:
+        Объект ContentFile (изменённое изображение)
+"""
 
 
 def resize_image(data):
