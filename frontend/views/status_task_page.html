@@ -1,0 +1,15 @@
+<div class="container d-flex wrapper">
+	<div class="d-flex row flex-column">
+		<div id="task_info">
+			<h3 class="mt-5">Статус выполнения процесса изменения размеров изображения</h3>
+			<div class="task_status">
+				<h4>Статус задачи: {{status}}</h4>
+				<h4>Описание: {{description}}</h4>
+				<h4 id="performed" class="d-none">Выполнение завершено на: {{performed}}</h4>
+				<h4 id="time" class="d-none">Затраченное время на выполнение: {{time_spent}}</h4>
+			</div>
+		</div>
+		<h5 id="bad_request_message" class="d-none mt-5">Идентификатор задачи в строке адреса введён неправильно. Введите корректный идентификатор и повторите попытку снова</h5>
+		<h5 id="not_found_message" class="d-none mt-5">Задача с таким идентификатором не найдена......</h5>
+	</div>
+</div>

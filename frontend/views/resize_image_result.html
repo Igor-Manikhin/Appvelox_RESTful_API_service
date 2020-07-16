@@ -1,0 +1,28 @@
+<div class="container d-flex wrapper">
+	<div class="d-none row justify-content-center result_view">
+		<div>
+			<h2 class="mt-5">Обработка изображения завершена</h2>
+			<p class="description mt-4">По данным ссылкам вы сможете посмотреть полученный результат изменения размеров изображения, а также его и скачать к себе на компьютер</p>
+			<div class="mt-5">
+				<a ng-href={{result_url}} class="btn btn-primary mr-3" id="result" target="_blank" role="button">Предварительный просмотр</a>
+				<a ng-href={{download_url}} class="btn btn-primary" id="download" role="button">Скачать изменённое изображение</a>
+			</div>
+		</div>
+	</div>
+	<div class="row justify-content-start timer_view">
+		<div class="task_info">
+			<h2 class="mt-5">Процесс обработки начался</h2>
+			<p class="w-75 mt-4">Процесс изменения размеров изображения к указанным уже начался. По присвоенному идентификатору можно получить информацию по текущему статусу задачи</p>
+			<h5 class="mt-5">Идентификатор задачи: {{task_id}}</h5>
+			<div class="d-flex mt-5">
+				<div class="align-self-center">
+					<p>Ссылки для предварительного просмотра и скачивания обработанного изображения будут доступны через:</p>
+				</div>
+				<div class="spinner-border mx-3" role="status">
+  					<span class="sr-only">Loading...</span>
+				</div>
+				{{counter}} секунд
+			</div>
+		</div>
+	</div>
+</div>
